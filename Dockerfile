@@ -2,6 +2,7 @@ FROM node
 MAINTAINER fracturedface
 
 COPY ["package.js", "server.js", "start.sh", "/desmos/"]
+COPY ["assets", "/desmos/assets/"]
 
 RUN npm install --verbose && \
 
