@@ -12223,7 +12223,7 @@ define('main/graphs_controller',['require','underscore','pjs','main/graph','main
         });
       }
 
-      document.title = currentGraph.title || i18n.t('Desmos Graphing Calculator');
+      document.title = currentGraph.title || i18n.t('Web Grapher');
 
       if (!(window.history && history.pushState)) return;
 
@@ -14355,7 +14355,7 @@ define('main/share_options',['require','loadcss!css/share_options','jquery','und
     view.getTwitterURL = function(graph) {
       var message, path;
       if (graph.hash) {
-        message = 'Look what I made with the Desmos Graphing Calculator: ';
+        message = 'A graph: ';
         path = graph.path;
       } else {
         message = 'Check out the Desmos Graphing Calculator: beautiful, free math!';
