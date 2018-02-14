@@ -11,7 +11,7 @@ Build the container:<br>
 `docker build -t {image-name} Desmos-Docker/`
 
 Run the Container:<br>
-`docker create --name={name} -p 54487:54487 {image-name}`
+`docker create --name={name} -p 54487:54487 {image-name}`<br>
 `docker start {name}`
 
 To use the site locally, head to [localhost:54487](http://localhost:54487).
