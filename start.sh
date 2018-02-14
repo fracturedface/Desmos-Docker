@@ -1,1 +1,1 @@
-node /Desmos/server.js
+node server

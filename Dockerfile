@@ -1,11 +1,13 @@
 FROM node
 MAINTAINER fracturedface
 
-COPY ["package.js", "server.js", "start.sh", "/desmos/"]
+COPY ["package.json", "server.js", "start.sh", "/desmos/"]
 COPY ["assets", "/desmos/assets/"]
 
-RUN npm install --verbose && \
+RUN cd /desmos/ && \
+  npm install --verbose && \
+  ls -la
 
 EXPOSE 54487
 VOLUME ["/desmos/"]
-CMD ["/desmos/start.sh"]
+CMD ["bash /desmos/start.sh"]
