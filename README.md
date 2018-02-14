@@ -12,10 +12,12 @@ Build the container:<br>
 
 Run the Container:<br>
 `docker create --name={name} -p 54487:54487 {image-name}`<br>
-`docker start {name}`
+`docker start {name}`<br>
+Now you can head to [localhost:54487](http://localhost:54487) to use the site on your local machine. If you want to use the site on other systems within the same network, you can find your systems IP address by typing `hostname -I` into a terminal. The first listed address should be your LAN address.<br>
+## Alternativley:<br>
+This only works for most Debian-Based operating systems. Use at your own risk. Open a terminal and use the following command:<br>
+`sudo bash install.sh >> ~/desmosinstall.log && exit`<br>
+If all goes according to plan, it should install Docker, git clone the repository, and build then set up your docker container. The log for this script should be located in your home directory under the name `desmosinstall.log`. After the script has finished, the terminal will exit.
 
-To use the site locally, head to [localhost:54487](http://localhost:54487).
-
-To use the site on other networked systems, head to [ip-address:54487](http://ip-address:54487/) and replace `ip-address` with the systems IP address.<br>
 ### Credits
 All files in [assets](./assets) belong to [Desmos](https://www.desmos.com/).

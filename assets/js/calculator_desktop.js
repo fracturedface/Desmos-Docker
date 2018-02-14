@@ -52032,7 +52032,7 @@ __p+='<div>\n\n<div class=\'dcg-show-expressions-tab\'>\n  <a\n    class=\'dcg-r
 ( t('Done') )+
 '\n      </a>\n    </div>\n\n    <div class="dcg-exppanel dcg-disable-horizontal-scroll-to-cursor">\n\n      <div class=\'dcg-drop-image\'>\n        <span>'+
 ( t('Drop Image Here') )+
-'</span>\n      </div>\n\n      <div class="dcg-expressionlist">\n        <span class="dcg-template-expressioneach"></span>\n        <div class="template-newexpression"></div>\n\n        <a class="dcg-expressions-branding" href="//www.desmos.com/" target="_blank">\n          <div class="dcg-powered-by">powered by</div>\n          <i class="dcg-icon-desmos"></i>\n        </a>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n</div> <!-- close container div-->\n';
+'</span>\n      </div>\n\n      <div class="dcg-expressionlist">\n        <span class="dcg-template-expressioneach"></span>\n        <div class="template-newexpression"></div>\n\n        <a class="dcg-expressions-branding" href="" target="_blank">\n          <div class="dcg-powered-by"></div>\n          <i class="dcg-icon-desmos"></i>\n        </a>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n</div> <!-- close container div-->\n';
 }
 return __p;
 };});
