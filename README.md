@@ -1,5 +1,8 @@
 # Desmos-Docker
 The [Desmos](https://www.desmos.com/) website, ported for offline use in [Docker](https://docker.com/).<br>
+<p align="center">
+  <img src="https://cdn.rawgit.com/physicalcenter/Desmos-Docker/master/screenshot.png"/>
+</p>
 ## Setup
 If you don't have Docker installed on your machine already, run this command:<br>
 `curl -fsSL get.docker.com -o get-docker.sh && sudo bash get-docker.sh`<br>
