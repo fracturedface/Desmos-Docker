@@ -1,15 +1,11 @@
 {
-  "name": "Desmos-Frontend-Server",
-  "version": "1.0.0",
-  "description": "Desmos frontend server in node.",
+  "name": "Desmos-Frontend-Server-Docker",
+  "version": "1.1.0",
+  "description": "Desmos frontend server written in node, optimized for Docker.",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"It works!\"",
-    "start": "node server.js"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/usandfriends/Desmos-Frontend.git"
+    "url": "https://github.com/fracturedface/Desmos-Docker.git"
   },
   "keywords": [
     "desmos",
@@ -17,12 +13,12 @@
     "graphing",
     "calculator"
   ],
-  "author": "Usandfriends",
+  "author": "Usandfriends & fracturedface",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/usandfriends/Desmos-Frontend/issues"
+    "url": "https://github.com/fracturedface/Desmos-Docker/issues"
   },
-  "homepage": "https://github.com/usandfriends/Desmos-Frontend",
+  "homepage": "https://github.com/fracturedface/Desmos-Docker/",
   "dependencies": {
     "express": "^4.10.2"
   }

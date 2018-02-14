@@ -7,4 +7,4 @@ app.use('/css', express.static(__dirname + '/assets/css'));
 app.use('/img', express.static(__dirname + '/assets/img'));
 
 app.listen(54487);
-console.log('Listening on Docker Container Port 54487.');
+console.log('Access at: http://localhost:54487/');

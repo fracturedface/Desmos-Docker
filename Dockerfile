@@ -6,7 +6,8 @@ COPY ["assets", "/desmos/assets/"]
 
 RUN cd /desmos/ && \
   npm install --verbose && \
-  chmod +x /desmos/start.sh
+  chmod +x /desmos/start.sh && \
+  rm install.sh Dockerfile
 
 EXPOSE 54487
 VOLUME ["/desmos/"]
