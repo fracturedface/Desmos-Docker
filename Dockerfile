@@ -6,8 +6,8 @@ COPY ["assets", "/desmos/assets/"]
 
 RUN cd /desmos/ && \
   npm install --verbose && \
-  ls -la
+  chmod +x /desmos/start.sh
 
 EXPOSE 54487
 VOLUME ["/desmos/"]
-CMD ["bash /desmos/start.sh"]
+CMD ["/desmos/start.sh"]

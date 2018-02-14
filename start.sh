@@ -1,1 +1,2 @@
-node server
+#!/bin/sh
+cd /desmos/ && node server
